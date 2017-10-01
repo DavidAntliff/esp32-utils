@@ -42,11 +42,6 @@ extern "C" {
  */
 #define RMT_ITEM_DURATION_WIDTH 15
 
-/**
- * @brief When looping, there are only N-1 items usable in an RMT mem block
- */
-#define RMT_LOOP_MAX_ITEMS_PER_MEM_BLOCK (RMT_MEM_ITEM_NUM - 1)
-
 
 #ifdef __cplusplus
 }
